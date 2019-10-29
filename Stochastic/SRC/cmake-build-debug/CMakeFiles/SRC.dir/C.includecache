@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/fillrand.h
+
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/ftnInput.h
+
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/main.c
+stdio.h
+-
+stdlib.h
+-
+ftnInput.h
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/ftnInput.h
+matrixgen.h
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/matrixgen.h
+fillrand.h
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/fillrand.h
+
+C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/matrixgen.h
+

@@ -1,0 +1,200 @@
+The system is: Windows - 10.0.17134 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files (x86)/CodeBlocks/MinGW/bin/gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_4be62/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_4be62.dir\build.make CMakeFiles/cmTC_4be62.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4be62.dir/testCCompiler.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_4be62.dir\testCCompiler.c.obj   -c "C:\Users\Holly Strauch\Desktop\Strauch_Project1\SRC\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c"
+Linking C executable cmTC_4be62.exe
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_4be62.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_4be62.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_4be62.dir/objects.a @CMakeFiles\cmTC_4be62.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_4be62.dir/objects.a -Wl,--no-whole-archive  -o cmTC_4be62.exe -Wl,--out-implib,libcmTC_4be62.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_4be62.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_cb0ae/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cb0ae.dir\build.make CMakeFiles/cmTC_cb0ae.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb0ae.dir/CMakeCCompilerABI.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_cb0ae.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\share\cmake-3.13\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_cb0ae.exe
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cb0ae.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cb0ae.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cb0ae.dir/objects.a @CMakeFiles\cmTC_cb0ae.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_cb0ae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cb0ae.exe -Wl,--out-implib,libcmTC_cb0ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+Using built-in specs.
+COLLECT_GCC=C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe
+COLLECT_LTO_WRAPPER=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe
+Target: mingw32
+Configured with: ../../../src/gcc-4.8.1/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-2 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs
+Thread model: posix
+gcc version 4.8.1 (tdm-2) 
+COMPILER_PATH=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/;c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/
+LIBRARY_PATH=c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/;c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb0ae.exe' '-mtune=generic' '-march=pentiumpro'
+ c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe --exclude-libs=libpthread.a -Bdynamic -o cmTC_cb0ae.exe c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_cb0ae.dir/objects.a --no-whole-archive --out-implib libcmTC_cb0ae.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_cb0ae/fast"]
+  ignore line: [C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_cb0ae.dir\build.make CMakeFiles/cmTC_cb0ae.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cb0ae.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_cb0ae.dir\CMakeCCompilerABI.c.obj   -c "C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\share\cmake-3.13\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_cb0ae.exe]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cb0ae.dir\link.txt --verbose=1]
+  ignore line: ["C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cb0ae.dir/objects.a]
+  ignore line: [C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_cb0ae.dir/objects.a @CMakeFiles\cmTC_cb0ae.dir\objects1.rsp]
+  ignore line: [C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe     -v -Wl,--whole-archive CMakeFiles\cmTC_cb0ae.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cb0ae.exe -Wl,--out-implib,libcmTC_cb0ae.dll.a -Wl,--major-image-version,0,--minor-image-version,0 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../../../src/gcc-4.8.1/configure --build=mingw32 --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --disable-symvers --enable-cxx-flags='-fno-function-sections -fno-data-sections -DWINPTHREAD_STATIC' --prefix=/mingw32tdm --with-local-prefix=/mingw32tdm --with-pkgversion=tdm-2 --enable-sjlj-exceptions --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.1 (tdm-2) ]
+  ignore line: [COMPILER_PATH=c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib/]
+  ignore line: [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cb0ae.exe' '-mtune=generic' '-march=pentiumpro']
+  link line: [ c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe --exclude-libs=libpthread.a -Bdynamic -o cmTC_cb0ae.exe c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1 -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib -Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../.. --whole-archive CMakeFiles\cmTC_cb0ae.dir/objects.a --no-whole-archive --out-implib libcmTC_cb0ae.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o]
+    arg [c:/progra~2/codebl~1/mingw/bin/../libexec/gcc/mingw32/4.8.1/collect2.exe] ==> ignore
+    arg [--exclude-libs=libpthread.a] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cb0ae.exe] ==> ignore
+    arg [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../crt2.o] ==> ignore
+    arg [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/crtbegin.o] ==> ignore
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1]
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc]
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib]
+    arg [-Lc:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_cb0ae.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_cb0ae.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/crtend.o] ==> ignore
+  remove lib [msvcrt]
+  remove lib [msvcrt]
+  collapse library dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1] ==> [C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.8.1]
+  collapse library dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc] ==> [C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc]
+  collapse library dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../../../mingw32/lib] ==> [C:/Program Files (x86)/CodeBlocks/MinGW/mingw32/lib]
+  collapse library dir [c:/progra~2/codebl~1/mingw/bin/../lib/gcc/mingw32/4.8.1/../../..] ==> [C:/Program Files (x86)/CodeBlocks/MinGW/lib]
+  implicit libs: [mingw32;gcc;moldname;mingwex;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex]
+  implicit dirs: [C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc/mingw32/4.8.1;C:/Program Files (x86)/CodeBlocks/MinGW/lib/gcc;C:/Program Files (x86)/CodeBlocks/MinGW/mingw32/lib;C:/Program Files (x86)/CodeBlocks/MinGW/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_242c1/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_242c1.dir\build.make CMakeFiles/cmTC_242c1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_242c1.dir/feature_tests.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -std=c11 -o CMakeFiles\cmTC_242c1.dir\feature_tests.c.obj   -c "C:\Users\Holly Strauch\Desktop\Strauch_Project1\SRC\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_242c1.exe
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_242c1.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_242c1.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_242c1.dir/objects.a @CMakeFiles\cmTC_242c1.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_242c1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_242c1.exe -Wl,--out-implib,libcmTC_242c1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_242c1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_ac611/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_ac611.dir\build.make CMakeFiles/cmTC_ac611.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac611.dir/feature_tests.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -std=c99 -o CMakeFiles\cmTC_ac611.dir\feature_tests.c.obj   -c "C:\Users\Holly Strauch\Desktop\Strauch_Project1\SRC\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_ac611.exe
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_ac611.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_ac611.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_ac611.dir/objects.a @CMakeFiles\cmTC_ac611.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_ac611.dir/objects.a -Wl,--no-whole-archive  -o cmTC_ac611.exe -Wl,--out-implib,libcmTC_ac611.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_ac611.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe" "cmTC_d23b5/fast"
+C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_d23b5.dir\build.make CMakeFiles/cmTC_d23b5.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d23b5.dir/feature_tests.c.obj
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe   -std=c90 -o CMakeFiles\cmTC_d23b5.dir\feature_tests.c.obj   -c "C:\Users\Holly Strauch\Desktop\Strauch_Project1\SRC\cmake-build-debug\CMakeFiles\feature_tests.c"
+Linking C executable cmTC_d23b5.exe
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d23b5.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2019.1\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_d23b5.dir/objects.a
+C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\cmTC_d23b5.dir/objects.a @CMakeFiles\cmTC_d23b5.dir\objects1.rsp
+C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe      -Wl,--whole-archive CMakeFiles\cmTC_d23b5.dir/objects.a -Wl,--no-whole-archive  -o cmTC_d23b5.exe -Wl,--out-implib,libcmTC_d23b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d23b5.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Holly Strauch/Desktop/Strauch_Project1/SRC/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
